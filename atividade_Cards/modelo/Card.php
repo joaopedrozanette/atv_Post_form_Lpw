@@ -132,12 +132,14 @@ class Card
     }
     public function getCard()
     {
-        echo "<div style='border: solid 1px; width: 300px; margin-top: 20px; padding: 10px; background-color: #f9f9f9;'>";
-        echo "<strong>Nome:</strong> " . $this->nome . "<br>";
-        echo "<strong>Stand/Poder:</strong> " . $this->poder . "<br>";
-        echo "<strong>Parte:</strong> " . $this->getNomeParte() . "<br>";
-        echo "<strong>Raça:</strong> " . $this->getNomeRaca() . "<br>";
+        echo "<div class='card' style='width: 300px; margin-top: 20px; padding: 10px; background-color: #f9f9f9;'>";
+        echo "<p>Nome:</p> " . $this->nome . "<br>";
+        echo "<p>Stand/Poder:</p> " . $this->poder . "<br>";
+        echo "<p>Parte:</p> " . $this->getNomeParte() . "<br>";
+        echo "<p>Raça:</p> " . $this->getNomeRaca() . "<br>";
         echo "<img style='width: 100%; height: auto; margin-top: 10px;' src='" . $this->link . "' />";
         echo "</div>";
     }
+    
+    
 }

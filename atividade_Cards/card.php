@@ -22,40 +22,51 @@ $card->setLink($link);
     <title>Card do Personagem</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
-        body {
-            background-image: url('https://external-preview.redd.it/sgWt9-igw4C1Zk13B65GUMUqDN84PYf_fwz3jH2c6PI.jpg?auto=webp&s=523123f4f524c43837adc4e34280987a2e84f8c6');
-            background-size: cover;
-            background-position: center;
-            min-height: 100vh;
-            margin: 0;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            padding: 20px;
-        }
+       body {
+    background-image: url('https://external-preview.redd.it/sgWt9-igw4C1Zk13B65GUMUqDN84PYf_fwz3jH2c6PI.jpg?auto=webp&s=523123f4f524c43837adc4e34280987a2e84f8c6');
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    color: white; /* Ensure text is readable on dark backgrounds */
+}
 
-        h1 {
-            color: white;
-            text-shadow: 1px 1px 4px black;
-            margin-bottom: 30px;
-        }
+h1 {
+    color: white;
+    text-shadow: 1px 1px 4px black;
+    margin-bottom: 30px;
+}
 
-        .card {
-            box-shadow: 0 4px 12px rgba(0,0,0,0.4);
-            border-radius: 15px;
-            overflow: hidden;
-        }
+.card {
+    box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+    border-radius: 15px;
+    overflow: hidden;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Slight transparency for readability */
+}
 
-        a {
-            margin-top: 20px;
-            color: #fff;
-            text-decoration: underline;
-        }
+a {
+    margin-top: 20px;
+    color: #fff;
+    text-decoration: underline;
+}
 
-        a:hover {
-            color: #cce;
-        }
+a:hover {
+    color: #cce;
+}
+
+p {
+    font-weight: bold;
+    margin: 0; /* Remove qualquer margem */
+    padding: 0; /* Remove qualquer padding */
+}
+
+
     </style>
 </head>
 <body>

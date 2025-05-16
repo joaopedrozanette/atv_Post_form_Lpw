@@ -33,7 +33,7 @@ $card->setLink($link);
     justify-content: center;
     align-items: center;
     padding: 20px;
-    color: white; /* Ensure text is readable on dark backgrounds */
+    color: white; 
 }
 
 h1 {
@@ -47,7 +47,7 @@ h1 {
     border-radius: 15px;
     overflow: hidden;
     padding: 20px;
-    background-color: rgba(255, 255, 255, 0.8); /* Slight transparency for readability */
+    background-color: rgba(255, 255, 255, 0.8); 
 }
 
 a {
@@ -62,8 +62,8 @@ a:hover {
 
 p {
     font-weight: bold;
-    margin: 0; /* Remove qualquer margem */
-    padding: 0; /* Remove qualquer padding */
+    margin: 0; 
+    padding: 0; 
 }
 
 
